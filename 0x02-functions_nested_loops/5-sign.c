@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sigh - prints the sigh of a number
+ * print_sign - prints the sigh of a number
  * @n: the numbe of the sign to the printed
  * Return: 1 if  number is greater than zere
  * 0 of number is zero
