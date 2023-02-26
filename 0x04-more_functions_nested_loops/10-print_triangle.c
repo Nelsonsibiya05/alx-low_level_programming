@@ -14,10 +14,11 @@ void print_triangle(int size)
 
 	for (row = 0; row < size; row++)
 	{
-		column = size - 1 -
+		column = size - 1 - row;
+
 		for
 			(space = column; space > 0; space--)
-				_putchat(' ');
+				_putchar(' ');
 		for
 			(pound = size - column; pound > 0; pound--)
 				_putchar(35);
