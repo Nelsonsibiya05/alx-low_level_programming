@@ -19,11 +19,13 @@ int main(void)
 			printf("Fizz");
 		else if (i % 5 == 0)
 			printf("Buzz");
+		else
+			printf("%i", i);
 
 		if (i != 100)
 			printf(" ");
 	}
 
-	printf('\n');
+	printf("\n");
 	return (0);
 }
