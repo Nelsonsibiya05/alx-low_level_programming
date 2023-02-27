@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts _half - This function prints half of a string
+ * puts_half - This function prints half of a string
  * followed by a new line
  * @str: The string to be evaluated
  */
@@ -9,7 +9,7 @@ void puts_half(char *str)
 {
 	int i, j;
 
-	for(i = 0; str[i] != 0; i++)
+	for (i = 0; str[i] != 0; i++)
 		;
 
 	j = (i + 1) / 2;
