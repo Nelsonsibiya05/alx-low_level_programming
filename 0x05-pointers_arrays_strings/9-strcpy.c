@@ -2,7 +2,7 @@
 
 /**
  * *_strcpy - This function copies string to by src
- * including the terminating null byte (\0) to the buffer pointed to to the dest
+ * including the terminating null byte (\0) to the buffer pointed to the dest
  * @src: The string to copy
  * @dest: The buffer to copy to
  * Return: The string str
