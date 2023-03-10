@@ -17,5 +17,5 @@ void _puts_recursion(char *s)
 	/* otherwise, print the current array index */
 	_putchar(*s);
 	/* call funtion */
-	_putchar(s + 1);
+	_putchar(*s + 1);
 }
