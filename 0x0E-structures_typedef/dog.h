@@ -7,7 +7,6 @@
  * @age: age of dog
  * @owner: owner of dog
  */
-
 struct dog
 {
 	char *name;
@@ -18,8 +17,8 @@ struct dog
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
-void priny_dog(struct dog *d);
+void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
-void free_dog(doh_t *d);
+void free_dog(dog_t *d);
 
 #endif /*STRTYP*/
