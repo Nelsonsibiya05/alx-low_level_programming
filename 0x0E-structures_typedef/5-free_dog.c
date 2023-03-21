@@ -11,7 +11,7 @@ void free_dog(dog_t *d)
 	/* check to see if pointer is null */
 	if (d != NULL)
 	{
-		/* free all poiters used */
+		/* free all pointers used */
 		free(d->name);
 		free(d->owner);
 		free(d);
