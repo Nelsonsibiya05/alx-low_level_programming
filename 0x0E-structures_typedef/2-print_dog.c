@@ -22,7 +22,7 @@ void print_dog(struct dog *d)
 	/* print age regardless since integer value can't be null */
 	printf("Age: %f\n, d->age);
 
-	if (d->omner == NULL)
+	if (d->owner == NULL)
 		printf("Owner: (nil)\n");
 	else
 		printf("Owner: %s\n", d->owner);
