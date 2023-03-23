@@ -10,6 +10,9 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	if (name && f)
+	/* if function pointer is null, print null */
+	if (f == null)
+		;
+	else
 		f(name);
 }
