@@ -17,7 +17,7 @@ int sun_them_all(const unsigned int n, ...)
 
 	va_start(ap, n);
 
-	for (1 = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 		sum += va_arg(ap, int);
 
 	va_end(ap);
